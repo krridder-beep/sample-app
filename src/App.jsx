@@ -1,6 +1,6 @@
 import { useState } from 'react'
 import { motion, AnimatePresence } from 'framer-motion'
-import { Rocket, Sparkles, Shield, Zap, Github, ExternalLink } from 'lucide-react'
+import { Rocket, Sparkles, Shield, Zap, GitHub, ExternalLink } from 'lucide-react'
 import './App.css'
 
 function App() {
@@ -83,7 +83,7 @@ function App() {
               Get Started Now
             </motion.button>
             <button className="btn-secondary">
-              <Github size={18} style={{ marginRight: 8, display: 'inline' }} />
+              <GitHub size={18} style={{ marginRight: 8, display: 'inline' }} />
               Source Code
             </button>
           </div>
