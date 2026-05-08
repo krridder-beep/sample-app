@@ -1,0 +1,53 @@
+.header {
+  margin-bottom: 3rem;
+}
+
+.subtitle {
+  font-size: 1.2rem;
+  color: #94a3b8;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+}
+
+.status-grid {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  margin: 2rem 0;
+}
+
+.status-item {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  font-weight: 500;
+}
+
+.dot {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+.github {
+  background-color: #f0f6fc;
+  box-shadow: 0 0 10px rgba(240, 246, 252, 0.5);
+}
+
+.cloudflare {
+  background-color: #f38020;
+  box-shadow: 0 0 10px rgba(243, 128, 32, 0.5);
+}
+
+.footer {
+  margin-top: 4rem;
+  opacity: 0.5;
+  font-size: 0.8rem;
+}
+
+code {
+  background: rgba(255, 255, 255, 0.1);
+  padding: 0.2rem 0.4rem;
+  border-radius: 4px;
+}
